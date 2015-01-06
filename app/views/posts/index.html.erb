@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<%# Moved h1 into layout %>
+
+<%# Moved each loop into post partial. %>
+
+<%= render @posts %>
+
+<br>
+
+<%= link_to 'New Post', new_post_path %>
